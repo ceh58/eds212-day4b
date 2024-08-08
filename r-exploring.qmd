@@ -57,6 +57,6 @@ GGally::ggpairs(penguins,
 
 ```{r}
 # Make a histogram of penguin flipper lengths ----
-ggplot(data = penguins, aes(x = flipper_length_mm)) + geom_histogram()
+ggplot(data = penguins, aes(x = flipper_length_mm)) + geom_histogram(aes(fill = species))
 ```
 
